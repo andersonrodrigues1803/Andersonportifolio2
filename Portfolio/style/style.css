@@ -98,6 +98,16 @@ body {
     text-align: justify;
 }
 
+    .apresentacao-conteudo-texto {
+        font-family: 'Roboto', sans-serif; /* Escolha uma fonte que você gosta */
+        font-size: 16px; /* Tamanho de fonte legível */
+        color: #ffffff; /* Cor do texto (preto escuro) */
+        line-height: 1.5; /* Espaçamento entre linhas para melhor legibilidade */
+        /* Outros estilos de texto, como negrito ou itálico, podem ser adicionados aqui */
+    }
+
+    
+
 /* Estilos para elementos com a classe .apresentacao-conteudo-paragrafo */
 .apresentacao-conteudo-paragrafo {
     /* Define o tamanho da fonte como 24px */
@@ -127,6 +137,8 @@ body {
 
     /* Define o espaçamento entre os elementos filhos como 20px */
     gap: 20px;
+
+
 }
 .apresentacao-links-conteudo {
     font-family: 'Krona One', sans-serif;
@@ -453,7 +465,7 @@ body {
     }
 
     .rodape a:hover {
-        color: #00ccff;
+        color:#ff0000
     }
 
     .cabecalho {
