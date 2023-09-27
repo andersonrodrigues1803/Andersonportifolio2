@@ -56,6 +56,7 @@ body {
 
     /* Distribui o espaço restante entre os itens horizontalmente */
     justify-content: space-between;
+    gap: 30px;
 }
 
 /* Estilos para elementos com a classe .apresentacao-conteudo */
@@ -89,22 +90,41 @@ body {
 /* Estilos para elementos com a classe .apresentacao-conteudo-titulo */
 .apresentacao-conteudo-titulo {
     /* Define o tamanho da fonte como 36px */
-    font-size: 36px;
+    font-size: 40px;
 
     /* Define a família de fontes como 'Krona One' com fallback para sans-serif */
     font-family: 'Krona One', sans-serif;
 
     /* Alinha o texto justificado */
-    text-align: justify;
+    text-align: center;
 }
 
     .apresentacao-conteudo-texto {
         font-family: 'Roboto', sans-serif; /* Escolha uma fonte que você gosta */
-        font-size: 16px; /* Tamanho de fonte legível */
+        font-size: 20px; /* Tamanho de fonte legível */
         color: #ffffff; /* Cor do texto (preto escuro) */
+        text-align: justify;
         line-height: 1.5; /* Espaçamento entre linhas para melhor legibilidade */
+        gap: 30px;
         /* Outros estilos de texto, como negrito ou itálico, podem ser adicionados aqui */
+        line-height: 1.5; /* Espaçamento entre linhas para melhor legibilidade */
+        margin-bottom: 20px;
     }
+
+    .apresentacao-conteudo-texto3 {
+        
+        font-family: 'Roboto', sans-serif; /* Escolha uma fonte que você gosta */
+        font-size: 20px; /* Tamanho de fonte legível */
+        color: #ffffff; /* Cor do texto (preto escuro) */
+        text-align: justify;
+        line-height: 1.5; /* Espaçamento entre linhas para melhor legibilidade */
+        gap: 30px;
+        /* Outros estilos de texto, como negrito ou itálico, podem ser adicionados aqui */
+        line-height: 1.5; /* Espaçamento entre linhas para melhor legibilidade */
+        margin-bottom: 20px;
+        }
+
+    
 
     
 
@@ -304,6 +324,48 @@ body {
     /* Define o tamanho da fonte como 60px */
     font-size: 60px;
 }
+
+.botao2 {
+    background-color: #000;
+    color: #0077B5; /* Cor padrão do LinkedIn */
+    width: 500px;
+    height: 80px;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #0077B5;
+    border-radius: 50px;
+    font-size: 36px;
+    padding: 15px 0;
+    text-decoration: none;
+    font-family: 'Rock Salt', cursive;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+}
+
+.botao2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, transparent, #0077B5);
+    transition: 0.5s;
+}
+
+.botao2:hover::before {
+    left: 100%;
+}
+
+.botao2 i {
+    position: absolute;
+    font-size: 60px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
     
     .botao3 {
         background-color: #000;
@@ -401,49 +463,7 @@ body {
     
     /* inicio estilização ancora5(botao5) */
     
-    .botao5 {
-        background-color: #000;
-        align-items: center;
-        color: #b61ca9; /* Cor padrão do Instagram */
-        width: 500px;   
-        height: 80px; 
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: 2px solid#b61ca9;
-        border-radius: 50px;
-        font-size: 24px;
-        padding: 15px 0;
-        text-decoration: none;
-        font-family: 'Rock Salt', cursive;
-        letter-spacing: 2px;
-        text-transform: uppercase;
-        position: relative;
-        overflow: hidden;
-    }
     
-    .botao5::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: -100%;
-        width: 100%;
-        height: 100%;
-        background: linear-gradient(45deg, transparent, #2a0887);
-        transition: 0.5s;
-    }
-    
-    .botao5:hover::before {
-        left: 100%;
-    }
-    
-    .botao5 i {
-        position: absolute;
-        font-size: 60px;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-    }
     
     /* fim estilização ancora5(botao5) */
     
